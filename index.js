@@ -8,6 +8,6 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greeting(){
-  let input = document.querySelector('#greeting');
+  let input = document.querySelector('#time').innerHTML;
 }
 /* Write your implementation of displayMessage() */
