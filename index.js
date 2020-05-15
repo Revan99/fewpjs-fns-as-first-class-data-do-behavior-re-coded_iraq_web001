@@ -8,14 +8,13 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(){
-  let output;
   let input = document.querySelector('#time').innerHTML;
   if(input <= 12){
-    
+    return 'Good Morning';
   }else if(input >= 12 && input <= 5){
-    console.log('Good Afternoon');
+    return 'Good Afternoon';
   }else{
-    console.log('Good Evening');
+   return 'Good Evening';
   }
 }
 /* Write your implementation of displayMessage() */
