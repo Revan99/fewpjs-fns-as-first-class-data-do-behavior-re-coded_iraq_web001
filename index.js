@@ -18,7 +18,7 @@ function greet(time){
     return 'Good Afternoon';
   }
   else if (time >= 17){
-    return 'GoodEvening';
+    return 'Good Evening';
   }
 }
 function displayMessage(msg) {
