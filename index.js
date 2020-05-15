@@ -7,13 +7,13 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greet(input){
+function greet(time){
   
   if(input < 12){
     return 'Good Morning';
-  }else if(input >= 12 && input < 17){
+  }else if(input >= 12 && input < 5){
     return 'Good Afternoon';
-  }else if (input >= 17){
+  }else if (input >= 5){
    return 'Good Evening';
   }
 }
