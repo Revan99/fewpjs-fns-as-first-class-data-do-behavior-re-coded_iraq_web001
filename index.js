@@ -7,7 +7,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greeting(){
+function greet(){
   let input = document.querySelector('#time').innerHTML;
   if(input <= 12){
     console.log('Good Morning');
