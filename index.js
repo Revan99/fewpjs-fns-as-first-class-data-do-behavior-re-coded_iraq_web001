@@ -20,6 +20,7 @@ function greet(time){
   else if (time >= 17){
     return 'Good Evening';
   }
+  else return 'TEST'
 }
 function displayMessage(msg = "TEST"){
   let message = document.querySelector('#greeting');
