@@ -9,7 +9,7 @@ function handleClick(e) {
 
 function greet(time){
   time = time.split(0,indexOf(':'));
-  time = time.parseInt();
+  time = parseInt(time,10);
   if (time <= 12){
     return 'Good Morning';
   }
