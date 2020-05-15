@@ -2,14 +2,13 @@
 
 function handleClick(e) {
   const timeString = document.getElementById('time').value
-  console.log(timeString);
   displayMessage(greet(timeString))
 }
 
 /* End Given Code, don't edit above here...*/
 
-function greet(input){
-  
+function greet(){
+  let input = document.querySelector('#time').innerHTML;
   if(input < 12){
     return 'Good Morning';
   }else if(input >= 12 && input < 5){
