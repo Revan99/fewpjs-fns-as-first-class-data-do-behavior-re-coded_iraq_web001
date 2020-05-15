@@ -11,9 +11,9 @@ function greet(input){
   
   if(input < 12){
     return 'Good Morning';
-  }else if(input >= 12 && input < 5){
+  }else if(input >= 12 && input < 17){
     return 'Good Afternoon';
-  }else if (input >= 5){
+  }else if (input >= 17){
    return 'Good Evening';
   }
 }
