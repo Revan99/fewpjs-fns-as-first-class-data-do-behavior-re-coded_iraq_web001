@@ -7,14 +7,12 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greet(){
-  let input = document.querySelector('#time').innerHTML;
-  if(input < 12){
-    return 'Good Morning';
-  }else if(input >= 12 && input < 17){
-    return 'Good Afternoon';
-  }else if (input >= 17){
-   return 'Good Evening';
+function greet(time){
+  if (time < 12){
+    time += 12;
+  }
+  if(time >= 12 ){
+    return "Good Morning"
   }
 }
 function displayMessage(msg) {
