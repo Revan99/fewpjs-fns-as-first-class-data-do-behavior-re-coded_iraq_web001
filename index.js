@@ -9,9 +9,9 @@ function handleClick(e) {
 
 function greet(){
   let input = document.querySelector('#time').innerHTML;
-  if(input <= 12){
+  if(input < 12){
     return 'Good Morning';
-  }else if(input > 12 && input <= 5){
+  }else if(input >= 12 && input <= 5){
     return 'Good Afternoon';
   }else if (input > 5){
    return 'Good Evening';
