@@ -11,7 +11,13 @@ function greet(time){
   time = time.split(0,indexOf(':'));
   time = time.parseInt();
   if (time <= 12)
-    return 'GoodMorning';
+    return 'Good Morning';
+  }
+  else if (time > 12 && time <=17)
+    return 'Good Afternoon';
+  }
+  else if (time >= 17)
+    return 'GoodEvening';
   }
 function displayMessage(msg) {
   let message = document.querySelector('#greeting');
