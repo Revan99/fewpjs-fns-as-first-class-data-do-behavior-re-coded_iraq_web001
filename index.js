@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(time){
-  time = time.split(0,indexOf(':'));
+  time = time.split(':');
   time = parseInt(time,10);
   console.log(time);
   if (time <= 12){
