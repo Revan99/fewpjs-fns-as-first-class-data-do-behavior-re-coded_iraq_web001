@@ -7,7 +7,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greet(time){
+function greet(input){
   
   if(input < 12){
     return 'Good Morning';
