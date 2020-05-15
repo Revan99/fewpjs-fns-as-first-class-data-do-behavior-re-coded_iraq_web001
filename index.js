@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(time){
-  time = time.split(,)
+  time = time.split(indexOf(':'),)
 }
 function displayMessage(msg) {
   let message = document.querySelector('#greeting');
