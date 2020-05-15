@@ -12,9 +12,9 @@ function greeting(){
   if(input <= 12){
     console.log('Good Morning');
   }else if(input >= 12 && input <= 5){
-    console.log('Good afternoon');
-  }else if(input <= 12){
-    console.log('Good Morning');
+    console.log('Good Afternoon');
+  }else{
+    console.log('Good Evening');
   }
 }
 /* Write your implementation of displayMessage() */
