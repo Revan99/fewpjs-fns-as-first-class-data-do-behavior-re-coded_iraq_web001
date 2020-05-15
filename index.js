@@ -21,7 +21,7 @@ function greet(time){
     return 'Good Evening';
   }
 }
-function displayMessage(msg = 'TEST'){
+function displayMessage(){
   let message = document.querySelector('#greeting');
   message.innerHTML = msg;
 }
