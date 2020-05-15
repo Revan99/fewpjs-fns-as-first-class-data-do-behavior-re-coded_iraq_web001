@@ -9,5 +9,12 @@ function handleClick(e) {
 
 function greeting(){
   let input = document.querySelector('#time').innerHTML;
+  if(input <= 12){
+    console.log('Good Morning');
+  }else if(input >= 12 && input <= 5){
+    console.log('Good afternoon');
+  }else if(input <= 12){
+    console.log('Good Morning');
+  }
 }
 /* Write your implementation of displayMessage() */
