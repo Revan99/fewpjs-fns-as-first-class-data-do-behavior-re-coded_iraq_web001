@@ -17,4 +17,7 @@ function greet(){
    return 'Good Evening';
   }
 }
-/* Write your implementation of displayMessage() */
+function displayMessage(msg) {
+  let message = document.querySelector('#greeting');
+  message.innerHTML = msg;
+}
